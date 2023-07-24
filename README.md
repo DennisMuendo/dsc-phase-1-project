@@ -1,14 +1,8 @@
 # Phase 1 Project
-
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
-
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+Author: Dennis Muendo
 
 ## Project Overview
-
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+In this project we will use Explanatory data analysis to extract information for microsoft for them use the insights to establish a movie studio.
 
 ### Business Problem
 
@@ -16,31 +10,28 @@ Microsoft sees all the big companies creating original video content and they wa
 
 ### The Data
 
-In the folder `zippedData` are movie datasets from:
+There were four data sets provided each containing different data. The data sets were:
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+1. Box Office Mojo.
+2. IMDB.
+3. The Numbers
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+The first dataset, bom.movie_gross.csv, has five columns comprising of movie titles, studios, financial incomes both domestic and foreign and the release year.
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+The second dataset, tn.movie_budgets.csv, contains information on released films, including their names, release dates, and financial data such as production budget and worldwide gross.
+
+The third dataset, imdb.title.basics.csv, contains information on movies genres
+The last dataset is imdb.title.ratings.csv, which contains average ratings and number of votes.
 
 ## Deliverables
 
-There are three deliverables for this project:
+This GitHub repository contains all the deliverables for this project:
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+1. A GitHub repository
+2. A Jupyter Notebook
+3. A non-technical presentation
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
-
-### Key Points
+### 
 
 * **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
 
